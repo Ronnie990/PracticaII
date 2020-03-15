@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--<link type="text/css" rel="stylesheet"   href= "/static/css/miestilo.css">-->
+    <link type="text/css" rel="stylesheet"   href= "{{ url_for('static',filename='css/miestilo.css') }}">
+  </head>
+<body class="datos-body" >
+  <nav class="navbar navbar-light  navbar-expand-lg banner-datos">
+    <a class="navbar-brand" href="#">CV-Ronnie</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="/datos">Datos </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/formacion">Formacion</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link" href="/experiencia">Experiencia <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/habilidades">Habilidades <span class="sr-only">(current)</span></a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+    
+    <div class="container">
+
+
+         
+           <hr class="my-4">
+
+    <div id="contenido" class="row">
+ 
+        <div id="articulo" class="col-md-12">
+          <div class="row">
+            <div class="col-md-4 d-flex justify-content-center">
+          <img  src='../static/img/profile.jpg' class='rounded ' style="width:100%"  alt="">
+        </div>
+            <div class="col-md-8 card tarjeta-datos">
+              <div class="card-body ">
+                <h2>Ronnie Ortiz</h2>
+                <p class="text-datos">Ing. En Redes y telecomunicaciones</p>
+                  <hr class="my-4">
+                <h3>Perfil</h3>
+                <p class="text-datos">Profesional de redes y telecomunicaciones proactivo, constante, centrado, entregado, muy comprometido con mi
+                 trabajo, de rápido aprendizaje, autodidacta. Capacidad para asumir el desarrollo y gestión de forma individual y en
+                 equipo. Me apasionan los retos y nuevos proyectos.</p>
+                <hr class="my-4">
+                <h3>Contacto</h3>
+                <p class="text-datos">C/Primera, #1, Edificio Ravelo Roca
+                  Mar, Santo Domingo DN, <br> RD (809)
+                  979-0259 <br> roh990@gmail.com</p>
+                
+
+                </div>
+            </div>
+
+        </div>
+           
+        
+        </div>
+    </div>
+</div>
+    
+</body>
+</html>

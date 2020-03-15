@@ -1,0 +1,75 @@
+.imagen {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.datos-body{
+    background-color: #ebe3dd;
+}
+
+
+h2,h3,a{
+    color:white
+}
+
+.tarjeta-datos{
+     
+    background-color: #DFAE6C;
+}
+
+
+.banner-datos{
+    background-color:#DD8F50;
+}
+.formacion-body{
+    background-color: #AEB1C4;
+}
+.banner-formacion{
+    background-color:#D78E7D;
+}
+.tarjeta-formacion {
+    
+    background-color: #AEB1C4;
+}
+
+
+p {
+    font-family: Verdana, Geneva, sans-serif;
+
+}
+.text-datos{
+    color:#595E4F;
+}
+.text-formacion{
+    color: #3C5092;
+}
+h3,h1,h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+}
+
+
+.experiencia-body{
+    background-color: #1DDDE3;
+}
+.banner-experiencia{
+    background-color:#1DDDE3;
+}
+.tarjeta-experiencia {
+    
+    background-color: #30797D;
+}
+
+
+.habilidades-body{
+    background-color: #D9B7B5;
+}
+.banner-habilidades{
+    background-color:#BC8C5A;
+}
+.tarjeta-habilidades {
+    
+    background-color: #2D606E;
+}
+
+
+
